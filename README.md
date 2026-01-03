@@ -92,8 +92,3 @@ recommendations are applied.
 - `Open Positions NVDA` → reply with Qty, Avg Cost, Last, and P&L %.
 - `All open positions` → reply with all open positions and their Qty and P&L %.
 - `Add position NVDA 100qty 212.35usd` → add a new position from chat.
-
-## Roadmap (next)
-- Backtest tab: simple historical run with win rate, drawdown, trade list.
-- Beginner tips panel and safer defaults walkthrough.
-- More adaptive scoring (volatility- and trend-length aware) and richer digest.
