@@ -1,11 +1,11 @@
 ﻿# StockAlertBot (Investor Assistant)
 
-A Java 17 + JavaFX desktop app that screens a watchlist, generates trading signals, and delivers alerts via GUI, Telegram, and Windows tray. It now supports investor-friendly modes with calmer notifications, daily digests, and per-symbol personalization.
+A desktop app that screens a watchlist, generates trading signals, and delivers alerts via GUI, Telegram, and Windows tray. It now supports investor-friendly modes with calmer notifications, daily digests, and per-symbol personalization.
 
 ## Key Features
 - Multi-timeframe signal engine with smart cooldown and de-duplication across timeframes.
-- Investor modes: Daily Investor and Long-Term with calmer per-symbol throttling.
-- AI Console for scoped prompts (stocks, alerts, portfolio rules, app settings) with recommendations and audit log.
+- Investor modes: Daily Investor and Long-Term with calmer per-symbol throttling or AI Investor with reasoning.
+- AI Console for scoped prompts (stocks, alerts, portfolio, portfolio rules, app settings) with recommendations and audit log.
 - AI Proposal workflow to preview/apply AI recommendations with rollback support.
 - Daily digest (Telegram): health counts, top movers, and error summary.
 - Watchlist tools: add/remove, import/export CSV, pause/mute symbols, remove stale symbols.
@@ -18,30 +18,12 @@ A Java 17 + JavaFX desktop app that screens a watchlist, generates trading signa
 - Dashboard: LIVE/STALE/OFFLINE counts, top movers, and symbols with errors.
 - Settings/tests: test Alerts/Yahoo/Notifications from the UI, configure AI providers and models.
 
-## Project Structure
-```
-src/
-  main/
-    java/com/example/alerts/
-      alerts/        # alert channels (console, telegram, tray)
-      data/          # Yahoo client, candle/timeframe models
-      gui/           # JavaFX GuiApp and UI tabs
-      portfolio/     # portfolio models and storage
-      scheduler/     # MultiTimeframeScheduler, cooldown/dedup
-      screener/      # Watchlist screener
-      signals/       # StrategyEngine and signal models
-      telegram/      # Telegram command listener
-      watchlist/     # watchlist/price alert stores, symbol config store
-    resources/       # app properties, icons, universes, styles
-pom.xml
-README.md
-```
+<img width="2002" height="1006" alt="image" src="https://github.com/user-attachments/assets/6d73f013-92c6-4f95-ab11-5189d85557ad" />
 
-## Build & Run
-- Requirements: Java 17+, Maven.
-- Build: `./mvnw -q clean compile`
-- Run (JavaFX): `./mvnw javafx:run -DskipTests`
-  (or package with `./mvnw clean package` and run the shaded jar)
+<img width="3439" height="1415" alt="image" src="https://github.com/user-attachments/assets/a78725bd-5df6-4ac9-91fa-46204a4feb20" />
+
+<img width="3439" height="1365" alt="image" src="https://github.com/user-attachments/assets/dda7630c-6d5d-4e36-a7bf-6e28b92496dc" />
+
 
 ## Usage Notes
 - Configure alerts in-app (Menu > Configure > Alerts) and use test buttons to verify. Toggle which alert types
