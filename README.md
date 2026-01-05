@@ -4,19 +4,24 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 
 ## Key Features
 - Multi-timeframe signal engine with smart cooldown and de-duplication across timeframes.
-- Investor modes: Daily Investor and Long-Term with calmer per-symbol throttling or AI Investor with reasoning.
-- AI Console for scoped prompts (stocks, alerts, portfolio, portfolio rules, app settings) with recommendations and audit log.
+- Investor modes: Daily Investor and Long-Term with calmer per-symbol throttling.
+- AI Console for scoped prompts (stocks, alerts, portfolio rules, app settings) with recommendations and audit log.
 - AI Proposal workflow to preview/apply AI recommendations with rollback support.
 - Daily digest (Telegram): health counts, top movers, and error summary.
 - Watchlist tools: add/remove, import/export CSV, pause/mute symbols, remove stale symbols.
+- Watchlist selection updates the Notes panel with the latest alert history details.
 - Screener: ranks symbols with confidence breakdown (Trend/Structure/Volume/Candle/Risk).
-- Price alerts: per-symbol above/below with cooldown to avoid spam.
+- Price alerts: per-symbol above/below with cooldown to avoid spam, start monitoring after 10:00 ET unless AI pre-market monitoring is enabled.
+- Notes alerts: create freeform notes with optional scheduled reminders (Telegram/Windows).
 - Portfolio: track open positions and trade journal with persistent local storage.
 - Portfolio alerts: configurable sell rules (profit target, trailing stop, daily trend break, time-based exit).
+- Portfolio risk checks: market-open fall risk scoring with optional notifications.
 - Personalization: per-symbol ATR stop multiplier and score bias (stored locally).
 - Notifications: GUI log, Telegram, and Windows tray with per-category Telegram toggles.
 - Dashboard: LIVE/STALE/OFFLINE counts, top movers, and symbols with errors.
+- Backtest + Research: simulate strategies, compare runs, and export strategy research reports.
 - Settings/tests: test Alerts/Yahoo/Notifications from the UI, configure AI providers and models.
+- Settings transfer + sync: import/export settings or sync watchlists/alerts/personalization to an endpoint.
 
 <img width="2002" height="1006" alt="image" src="https://github.com/user-attachments/assets/6d73f013-92c6-4f95-ab11-5189d85557ad" />
 
