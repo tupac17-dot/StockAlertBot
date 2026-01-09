@@ -58,7 +58,8 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 - Alert history defaults to the current market session date; adjust the start/end date pickers to widen the range.
 - Use the alert history status dropdown to focus on SUCCEEDED, FAILED, PENDING, or N/A entries; pending alerts switch to N/A after the regular close.
 - Watchlist day-change values refresh when the market date rolls over, keeping daily moves aligned to the current session.
-- Right-click watchlist/screener rows for actions (mute, pause, personalize, open chart, add alert).
+- Right-click watchlist/screener rows for actions (mute, pause, personalize, open chart, add alert, and add to off-hours exclusions).
+- Off-hours exclusions (Settings → Strategy) list symbols that should skip off-hours strategy evaluation when off-hours alerts are enabled.
 - Portfolio tab includes open positions, trade journal, and portfolio alerts with sell-rule rationale.
 - Portfolio alerts show a status column to confirm whether triggers validated during the regular session.
 - Portfolio alerts default to today’s market date; adjust start/end pickers to review prior sessions.
