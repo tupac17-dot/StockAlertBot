@@ -44,6 +44,8 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 
 <img width="3439" height="1365" alt="image" src="https://github.com/user-attachments/assets/dda7630c-6d5d-4e36-a7bf-6e28b92496dc" />
 
+<img width="3439" height="1414" alt="image" src="https://github.com/user-attachments/assets/864df441-ef3a-4144-a949-7cfee5a9a8bc" />
+
 
 ## Usage Notes
 - Configure alerts in-app (Menu > Configure > Alerts) and use test buttons to verify. Toggle which alert types
