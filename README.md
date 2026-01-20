@@ -38,11 +38,17 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 - Unlicensed views and settings are disabled with "Upgrade for this option" tooltips in the sidebar and settings dialogs.
 - Portfolio screen access is gated by the `portfolio` license feature ID.
 
-<img width="2002" height="1006" alt="image" src="https://github.com/user-attachments/assets/6d73f013-92c6-4f95-ab11-5189d85557ad" />
+<img width="3228" height="1282" alt="image" src="https://github.com/user-attachments/assets/5840ca6c-2ec3-481b-8f4a-58a9c221cd3c" />
 
-<img width="3439" height="1415" alt="image" src="https://github.com/user-attachments/assets/a78725bd-5df6-4ac9-91fa-46204a4feb20" />
+<img width="3226" height="1322" alt="image" src="https://github.com/user-attachments/assets/2a513a52-cae6-44b6-b824-88e0e9e906fc" />
 
-<img width="3439" height="1365" alt="image" src="https://github.com/user-attachments/assets/dda7630c-6d5d-4e36-a7bf-6e28b92496dc" />
+<img width="3233" height="1324" alt="image" src="https://github.com/user-attachments/assets/7f4178c1-8e04-4f01-ac0a-423d0e43f1e7" />
+
+<img width="3223" height="1370" alt="image" src="https://github.com/user-attachments/assets/592886b3-a6ed-4d23-96dd-534efb1123c3" />
+
+<img width="3232" height="1329" alt="image" src="https://github.com/user-attachments/assets/c9527d6c-df8d-4053-ab42-6a1be62bf305" />
+
+<img width="3227" height="1336" alt="image" src="https://github.com/user-attachments/assets/d5256a89-6c78-4f48-92c8-6e34628171cc" />
 
 <img width="3439" height="1414" alt="image" src="https://github.com/user-attachments/assets/864df441-ef3a-4144-a949-7cfee5a9a8bc" />
 
