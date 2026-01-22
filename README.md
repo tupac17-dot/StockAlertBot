@@ -42,6 +42,8 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 
 <img width="3226" height="1322" alt="image" src="https://github.com/user-attachments/assets/2a513a52-cae6-44b6-b824-88e0e9e906fc" />
 
+<img width="1991" height="991" alt="image" src="https://github.com/user-attachments/assets/a4d535ab-8421-41d2-a5ea-c2c276861025" />
+
 <img width="3233" height="1324" alt="image" src="https://github.com/user-attachments/assets/7f4178c1-8e04-4f01-ac0a-423d0e43f1e7" />
 
 <img width="3223" height="1370" alt="image" src="https://github.com/user-attachments/assets/592886b3-a6ed-4d23-96dd-534efb1123c3" />
