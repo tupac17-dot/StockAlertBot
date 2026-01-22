@@ -125,3 +125,20 @@ recommendations are applied.
 - `Open Positions NVDA` → reply with Qty, Avg Cost, Last, and P&L %.
 - `All open positions` → reply with all open positions and their Qty and P&L %.
 - `Add position NVDA 100qty 212.35usd` → add a new position from chat.
+
+## Setting up a Telegram channel bot and obtaining a token involves a few straightforward steps. 
+Here’s a concise guide to get you started and keep you in control of authentication and messaging.
+
+What you’ll need
+Telegram account
+Access to BotFather (the official bot creator on Telegram)
+Steps to create a bot and get the token
+- Open Telegram and search for BotFather (@BotFather).
+- Start a chat with BotFather and send the command: /newbot
+- Follow the prompts to choose a name and a unique username for your bot.
+- BotFather will provide a token after the bot is created. This token is the key that authenticates your bot with the Telegram Bot API. Keep it secret and store it securely.
+- If you want the bot to operate in a Telegram channel, you’ll also need to add the bot to that channel as an administrator. This allows the bot to post messages on behalf of the channel. You can do this in the channel’s settings under Administrators, then add your bot by its username.
+Understanding the token and how to use it
+- The token looks like a string: something like 123456789:ABCdefGhIJKlmNoPQRstUVwxyZ. This is the credential used in API calls to send messages, manage updates, and configure webhooks. Treat it like a password.​
+With the token, you can call Telegram Bot API methods (for example, to send messages, set webhooks, or get updates). The official Bot API documentation explains all available methods and usage patterns.
+​
