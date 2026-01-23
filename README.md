@@ -36,7 +36,7 @@ A desktop app that screens a watchlist, generates trading signals, and delivers 
 - Help menu includes an Upgrade/Downgrade License shortcut to reapply signed licenses and refresh feature gating.
 - Feature-based license packages control what features/screens unlock per customer license.
 - Unlicensed views and settings are disabled with "Upgrade for this option" tooltips in the sidebar and settings dialogs.
-- Portfolio screen access is gated by the `portfolio` license feature ID
+- Portfolio screen access is gated by the `portfolio` license feature ID.
 
 <img width="3228" height="1282" alt="image" src="https://github.com/user-attachments/assets/5840ca6c-2ec3-481b-8f4a-58a9c221cd3c" />
 
